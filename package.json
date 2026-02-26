@@ -1,0 +1,23 @@
+{
+  "name": "research-mcp",
+  "version": "0.1.0",
+  "description": "MCP server para pesquisa multi-fonte: Reddit, YouTube, HN, GitHub Trending, Product Hunt, ArXiv",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "research-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["mcp", "research", "reddit", "youtube", "hackernews", "ai-agent"],
+  "author": "Red",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^17.2.4",
+    "node-fetch": "^3.3.2",
+    "snoowrap": "^1.23.0"
+  }
+}
